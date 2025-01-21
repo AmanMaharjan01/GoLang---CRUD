@@ -10,12 +10,6 @@ import (
 	_ "github.com/lib/pq"
 )
 
-// response format
-type response struct {
-	ID      int64  `json:"id,omitempty"`
-	Message string `json:"message,omitempty"`
-}
-
 // create connection with postgres db
 func CreateConnection() *sql.DB {
 	// load .env file
