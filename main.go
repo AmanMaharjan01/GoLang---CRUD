@@ -5,9 +5,9 @@ import (
 	"go-postgres/router"
 	"log"
 	"net/http"
-	"os" // used to read the environment variable
+	"os"
 
-	"github.com/joho/godotenv" // package used to read the .env file
+	"github.com/joho/godotenv"
 )
 
 func main() {

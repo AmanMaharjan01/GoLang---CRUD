@@ -1,13 +1,13 @@
 package database
 
 import (
-	"database/sql" // package to encode and decode the json into struct and vice versa
+	"database/sql"
 	"fmt"
-	"log" // used to access the request and response object of the api
-	"os"  // used to read the environment variable
+	"log"
+	"os"
 
-	"github.com/joho/godotenv" // package used to read the .env file
-	_ "github.com/lib/pq"      // postgres golang driver
+	"github.com/joho/godotenv"
+	_ "github.com/lib/pq"
 )
 
 // response format

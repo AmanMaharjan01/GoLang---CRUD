@@ -1,11 +1,9 @@
 package controllers
 
 import (
-	"encoding/json" // package to encode and decode the json into struct and vice versa
-	// models package where User schema is defined
-	"go-postgres/services" // models package where User schema is defined
-	"net/http"             // used to access the request and response object of the api
-	// package used to covert string into int type
+	"encoding/json"
+	"go-postgres/services"
+	"net/http"
 )
 
 func GetUser(w http.ResponseWriter, r *http.Request) {
